@@ -67,7 +67,7 @@ Here, we can see that despite the IDs being the same, the user information is di
 
 Regardless, completely duplicated rows are usually irrelevant in data analysis (as it is in our case) so we can use the "remove duplicates" in Excel to remove such values:
 
-<img src="https://github.com/dylanviyar/Excel-Projects/assets/81194849/6ce1b825-4d80-4e29-abc2-8b1fd22f67e1" width="400">
+<img src ="https://github.com/dylanviyar/Excel-Projects/assets/81194849/39dc5740-1282-412f-8c7b-5f2ac4883129" width="400">
 
 We can see that our sheet had 26 duplicate rows and Excel successfully removed those rows.
 
