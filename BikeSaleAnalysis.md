@@ -81,8 +81,12 @@ For the rest of the data cleansing we can go column by column and determine if t
 - Cars: We can see that there are only numerical values, which is what we expect, so no further cleansing necessary
 - Commute: When we hit filter, we see that `10+ Miles` value is listed second, which can we confusing in data visualization. Using Find and Replace, we can change `10+ Miles` to `More than 10 Miles` which gets placed last in the filter as desired
 - Region: All values are spelled correctly, no further cleansing necessary
-- Age: The age spread contains many values, making it difficult to notice trends, to deal with this, we can create a new column called `Age Group` to sort certain ages in a category. Ages 25-40 will be `Young Adult`, 41-65 will be `Adult` and 65+ will be `Old`. We can use a nested IF statement in another column to populate these values `=IF(L2>65,"Old",IF(L2>40,"Adult",IF(L2<=40,"Young Adult")))`
-- Purchased Bike: All values are either `Yes` or `No` as expected, no further cleansing necessary
+- Age: The age spread contains many values, making it difficult to notice trends, to deal with this, we can create a new column called `Age Group` to sort certain ages in a category. Ages 25-40 will be `Young Adult`, 41-65 will be `Adult` and 65+ will be `Old`. We can use a nested IF statement in another column to populate these values: `=IF(L2>65,"Old",IF(L2>40,"Adult",IF(L2<=40,"Young Adult")))`
+- Purchased Bike: All values are either `Yes` or `No` as expected, no further manipulation necessary
+
+After cleansing, our data looks like this:
+
+![Cleaned BikeSales](https://github.com/dylanviyar/Excel-Projects/assets/81194849/c8717d85-1ecf-448b-95c9-647f816830fc)
 
 Our data has been cleaned and now is ready for analysis.
 
