@@ -8,7 +8,7 @@ This project was motivated by the final Excel case study in Alex Freberg's Data 
 
 ### 1.0 The Setting
 
-In an effort to understand the bike industry and market, we can look at a dataset that contains information on bike consumers and determine if there are any underlying trends to worth noting. We then can make marketing strategy suggestions to supplement sales growth.
+In an effort to understand the bike industry and market, we can look at a dataset that contains information on bike consumers and determine if there are any underlying trends worth noting. We then can make marketing strategy suggestions to supplement sales growth.
 
 ### 1.1 Guiding Questions
 
@@ -73,5 +73,20 @@ We can see that our sheet had 26 duplicate rows and Excel successfully removed t
 
 For the rest of the data cleansing we can go column by column and determine if the particular data in the column needs adjusting.
 
-- ID: 
+- ID: We want to ensure that all the values in this column are numbers, so using `=ISNUMBER(A2)` we can see that all the values in the ID column are in fact numbers and no further cleansing is necessary
+- Martial Status/Gender: The "M" signifying "Married" and also signifying "Male" can be misleading during analysis and visualization. Using Find and Replace for each of the two rows, we can change the abbreviations to spell out the entire word to avoid confusion
+- Income: We remove the decimal places to make the values easier to read
+- Children: Using the same method as ID, we can attest that all the values are numbers
+- Education, Occupation and Home Owners: Using the filter, we can see that all the values in the two columns are spelled correctly and no NULL or empty values, thus there is no need for any data manipulation 
+- Cars: We can see that there are only numerical values, which is what we expect, so no further cleansing necessary
+- Commute: When we hit filter, we see that `10+ Miles` value is listed second, which can we confusing in data visualization. Using Find and Replace, we can change `10+ Miles` to `More than 10 Miles` which gets placed last in the filter as desired
+- Region: All values are spelled correctly, no further cleansing necessary
+- Age: The age spread contains many values, making it difficult to notice trends, to deal with this, we can create a new column called `Age Group` to sort certain ages in a category. Ages 25-40 will be `Young Adult`, 41-65 will be `Adult` and 65+ will be `Old`. We can use a nested IF statement in another column to populate these values `=IF(L2>65,"Old",IF(L2>40,"Adult",IF(L2<=40,"Young Adult")))`
+- Purchased Bike: All values are either `Yes` or `No` as expected, no further cleansing necessary
+
+Our data has been cleaned and now is ready for analysis.
+
+# 4. Analysis
+
+### 4.1 Pivot Tables
 
