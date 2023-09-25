@@ -26,7 +26,7 @@ In an effort to understand the bike industry and market, we can look at a datase
 
 ### 2.0 Gathering the dataset
 
-The data made publicly available [here](https://github.com/AlexTheAnalyst/Excel-Tutorial/blob/main/Excel%20Project%20Dataset.xlsx)
+The data is made publicly available [here](https://github.com/AlexTheAnalyst/Excel-Tutorial/blob/main/Excel%20Project%20Dataset.xlsx)
 
 ### 2.1 A Quick Glance
 
