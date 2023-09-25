@@ -37,7 +37,7 @@ When opening the Excel file, we can see the data looks like this:
 Key Takeaways:
 - There are 13 columns and 1027 rows in our dataset
 - Each row is a description of a person, with the final column distinguishing if they ended up purchasing a bike
-- Each column are different attributes of an individual, possibly certain attributes to motivate a bike purchase
+- Each column contains different attributes of an individual, possibly certain attributes to motivate a bike purchase
 
 ### 2.2 Possible Limitations of the Dataset
 
