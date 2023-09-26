@@ -76,12 +76,13 @@ For the rest of the data cleansing we can go column by column and determine if t
 - ID: We want to ensure that all the values in this column are numbers, so using `=ISNUMBER(A2)` we can see that all the values in the ID column are in fact numbers and no further cleansing is necessary
 - Martial Status/Gender: The "M" signifying "Married" and also signifying "Male" can be misleading during analysis and visualization. Using Find and Replace for each of the two rows, we can change the abbreviations to spell out the entire word to avoid confusion
 - Income: We remove the decimal places to make the values easier to read
+- Income Bracket: To allow for easier visualization for the income, we create a new column labeled `Income Bracket` to group the incomes in certain categories. We use the following nested IF: `=IF(D2>80000,"Greater than $80000",IF(D2>=30000,"Between $30000 and $80000",IF(D2<30000,"Less than $30000")))`
 - Children: Using the same method as ID, we can attest that all the values are numbers
 - Education, Occupation and Home Owners: Using the filter, we can see that all the values in the two columns are spelled correctly and no NULL or empty values, thus there is no need for any data manipulation 
 - Cars: We can see that there are only numerical values, which is what we expect, so no further cleansing necessary
 - Commute: When we hit filter, we see that `10+ Miles` value is listed second, which can we confusing in data visualization. Using Find and Replace, we can change `10+ Miles` to `More than 10 Miles` which gets placed last in the filter as desired
 - Region: All values are spelled correctly, no further cleansing necessary
-- Age: The age spread contains many values, making it difficult to notice trends, to deal with this, we can create a new column called `Age Group` to sort certain ages in a category. Ages 25-40 will be `Young Adult`, 41-65 will be `Adult` and 65+ will be `Old`. We can use a nested IF statement in another column to populate these values: `=IF(L2>65,"Old",IF(L2>40,"Adult",IF(L2<=40,"Young Adult")))`
+- Age: The age spread contains many values, making it difficult to notice trends, to deal with this, we can create a new column called `Age Group` to sort certain ages in a category. Ages 25-31 will be `Young Adult`, 31-65 will be `Adult` and 65+ will be `Old`. We can use a nested IF statement in another column to populate these values: `=IF(M2>65,"Old",IF(M2>31,"Adult",IF(M2<=31,"Young Adult")))`
 - Purchased Bike: All values are either `Yes` or `No` as expected, no further manipulation necessary
 
 After cleansing, our data looks like this:
@@ -93,4 +94,76 @@ Our data has been cleaned and now is ready for analysis.
 # 4. Analysis
 
 ### 4.1 Pivot Tables
+
+Some trends that we can use pivot tables to analyze include:
+- Relationship between commute distance and bike purchases
+- Relationship between Gender and income
+- Relationship between Age Group and bike purchases
+- Relationship between Income and bike purchases
+
+
+Commute distance and Bike Purchases:
+
+<img src="https://github.com/dylanviyar/Excel-Projects/assets/81194849/c7be0eb4-800b-45b9-a086-66214016cfc9" width="300">
+
+Gender and Income: 
+
+<img src="https://github.com/dylanviyar/Excel-Projects/assets/81194849/d1cf4611-459c-4be1-b27b-0b3e72dc0c3e" width="300">
+
+Age Group and Bike Purchases:
+
+<img src="https://github.com/dylanviyar/Excel-Projects/assets/81194849/9cf320e2-1e47-41cb-86d9-11f0488c6a22" width="300">
+
+Income and Bike Purchases:
+
+<img src="https://github.com/dylanviyar/Excel-Projects/assets/81194849/2e522c7f-2914-49bb-b6bd-a6a2b38da5b0" width ="300">
+
+Some **Key Takeaways:**
+- Men seem to be making more than women on average
+- Adults (ages 31-65) are the most likely to be interested in bikes (regardless if they end up puchasing a bike or not)
+- Commute and age seems to be most decisive attribute in regards to making the decision to buy a bike
+
+# 5. Data Visualization
+
+### 5.1 Dashboard
+
+![BikeSales Dashboard](https://github.com/dylanviyar/Excel-Projects/assets/81194849/d47265c1-59b8-42fa-88e4-e41559822c3f)
+
+*Note: We provide three additional slicers: Martial Status, Amount of Cars and Occupation, to provide more on-demand analysis*
+
+### 5.2 Visualization Insights
+
+1. Married individuals have an higher average income compared to their single counterparts
+2. There is a spike in interest in bikes for adults and in people whose income is between $30000 and $80000
+3. No one in the `Professional` occupation is making less than $30000
+4. The lower the commute, the more likely an individual is interested in purchasing a bike.
+
+# 6. Moving Forward
+
+### 6.0 Recall Guiding Questions
+
+1. What are some trends and patterns in bike consumers vs. non-consumers?
+2. Are certain demographics or audiences more likely to purchase bikes?
+3. How can understanding these trends influence marketing strategies for bike stores?
+
+### 6.1 Notable Trends
+
+- Bike consumers tend to live closer to their work and are middle-aged
+- Non-consumers are in the minority of the sample, people already interested in a bike are liely to puchase a unit
+- Income seems to have no direct effect on whether or not an individual buys a bike, the trend lines follow the same pattern between a purchase or non-puchase
+
+### 6.2 Target Audience for Bike Purchases
+
+- From our data and visualization, the demographic most likely to purchase a bike is in the age group between 31 and 65 and works within a mile of their work
+- Single people also had a higher amount of bike purchases
+
+### 6.3 Data-Driven Marketing Suggestions
+
+- Target the middle-aged! This age group clearly purchases the most bicycles. Targeted advertisements to this age group can support sales growth.
+- Adjust bike pricing to consider the middle class. People earning between $30000 and $80000 are the most interested in buying a bike, however there is no evidence to show that they are in fact buying more bikes. Tailor the pricing of bicycles to make them affordable for people making this amount to hopefully turn their interest into purchases.
+- Set up shop in between the workplace and the resedential! People living close to their work bought the most amount of bikes, so placing stores that are located between a person's work and house could possibly motivate them to consider biking to work.
+
+
+
+
 
