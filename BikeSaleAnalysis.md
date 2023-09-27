@@ -136,7 +136,7 @@ Some **Key Takeaways:**
 1. Married individuals have an higher average income compared to their single counterparts
 2. There is a spike in interest in bikes for adults and in people whose income is between $30000 and $80000
 3. No one in the `Professional` occupation is making less than $30000
-4. The lower the commute, the more likely an individual is interested in purchasing a bike.
+4. The lower the commute time, the more likely an individual is interested in purchasing a bike.
 
 # 6. Moving Forward
 
@@ -161,7 +161,7 @@ Some **Key Takeaways:**
 
 - Target the middle-aged! This age group clearly purchases the most bicycles. Targeted advertisements to this age group can support sales growth.
 - Adjust bike pricing to consider the middle class. People earning between $30000 and $80000 are the most interested in buying a bike, however there is no evidence to show that they are in fact buying more bikes. Tailor the pricing of bicycles to make them affordable for people making this amount to hopefully turn their interest into purchases.
-- Set up shop in between the workplace and the resedential! People living close to their work bought the most amount of bikes, so placing stores that are located between a person's work and house could possibly motivate them to consider biking to work.
+- Set up shop in between the workplace and the residential! People living close to their work bought the most amount of bikes, so placing stores that are located between a person's work and house could possibly motivate them to consider biking to work.
 
 
 
