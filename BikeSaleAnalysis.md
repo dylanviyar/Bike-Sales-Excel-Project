@@ -1,6 +1,6 @@
 # Bike Sales Data Exploratory Analysis: Understanding Consumers  
 ### Author: Dylan Viyar
-### Last Updated: 2023-09-23
+### Last Updated: 2023-09-28
 
 This project was motivated by the final Excel case study in Alex Freberg's Data Analysis bootcamp. We want to understand more about what motivates people to purchase a bike.
 
