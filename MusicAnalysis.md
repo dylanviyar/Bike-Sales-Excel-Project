@@ -12,5 +12,12 @@ In order to discover if certain genres and songs are generally more favorable, o
 
 ### 1.1 Guiding Questions 
 
-1. What are some reoccuring characteristics of songs that are in the top 100?
-2. 
+1. What are some reoccuring characteristics of songs, such as the BPM, genre and key that are in the top 100?
+2. How can understanding of these trends help aspiring musicians create music more likely to be well recepted by the public?
+
+### Business Task
+
+*Analyze data containing information on the top 100 songs of 2023 to understand listning preferences and provide artists with data-driven suggestions for music curation targeted for the general public*
+
+
+# 2. The Data
