@@ -127,7 +127,7 @@ Some **Key Takeaways:**
 
 ### 5.1 Dashboard
 
-![BikeSales Dashboard](https://github.com/dylanviyar/Excel-Projects/assets/81194849/d47265c1-59b8-42fa-88e4-e41559822c3f)
+![Updated BikeSales Dashboard](https://github.com/dylanviyar/Excel-Projects/assets/81194849/df8c64c4-5ca7-4776-93be-dbc665ddb9e7)
 
 *Note: We provide three additional slicers: Martial Status, Amount of Cars and Occupation, to provide more on-demand analysis*
 
