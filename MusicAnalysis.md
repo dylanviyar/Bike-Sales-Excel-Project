@@ -21,3 +21,8 @@ In order to discover if certain genres and songs are generally more favorable, o
 
 
 # 2. The Data
+
+### 2.0 Accessibility
+
+The dataset is available to the public for download on Kaggle [here](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023)
+
