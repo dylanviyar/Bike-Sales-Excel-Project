@@ -42,9 +42,13 @@ Upon downloading and opening the dataset into Excel, we can see that the data lo
 When evaluatiing the status of data to be used for analysis, a simple test is to see if the data you are using is 'ROCC' (Reliable, Original, Comprehensive, Current, Cited)
 
 **R**eliable: -Yes- The data is made avaiable on Kaggle with a plethora of upvotes and positive feedback, suggesting that the data is valid and useful
+
 **O**riginal: -Yes- This dataset contains unique metrics such as `danceability_%`, `valence_%` and `liveness_%` which provide original and new opportunities for insights
+
 **C**omprehensive: -Somewhat- There are further attributes that are missing that could possibly be valuable for exploration such as Genre
+
 **C**urrent: -Yes- This dataset is from the current calendar year of 2023, making it current and relevant
+
 **C**ited: -Yes- Kaggle provides metadata about the top contributors to the dataset as well as other important information regarding the history of the data
 
 Overall, our data does ROCC and we can be confident that we can create meaningful insights from the information found in the dataset!
