@@ -73,4 +73,7 @@ Using Excel's built-in remove duplicates functionality, we can see that there in
 
 <img src="https://github.com/dylanviyar/Excel-Projects/assets/81194849/7d49c198-01c1-45f0-aff6-8444c088c605" width="250">
 
+We can now cleanse our data column by column to get a more meticulous understanding of our data and possible areas needing manipulation:
+
+`track_name`: 
 
