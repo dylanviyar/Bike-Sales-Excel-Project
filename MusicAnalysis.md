@@ -37,4 +37,5 @@ Upon downloading and opening the dataset into Excel, we can see that the data lo
 2. Each row describes a song that was popular in the year 2023
 3. Each column denotes different attributes of a particular song, including the presence and rank of the song on Spotify charts, BPM, Key and other metrics such as dancibility and energy percentage
 
-### 2.2 
+### 2.2 Does the Data ROCC?
+
