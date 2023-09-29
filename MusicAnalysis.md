@@ -26,3 +26,15 @@ In order to discover if certain genres and songs are generally more favorable, o
 
 The dataset is available to the public for download on Kaggle [here](https://www.kaggle.com/datasets/nelgiriyewithana/top-spotify-songs-2023)
 
+### 2.1 Initial Impressions
+
+Upon downloading and opening the dataset into Excel, we can see that the data looks like this:
+
+![MusicAnalysisFirstLook](https://github.com/dylanviyar/Excel-Projects/assets/81194849/2e5fed14-cdd8-4a70-a227-6e76186bb400)
+
+**Key Takeaways**
+1. There are a total of 24 columns and 954 rows
+2. Each row describes a song that was popular in the year 2023
+3. Each column denotes different attributes of a particular song, including the presence and rank of the song on Spotify charts, BPM, Key and other metrics such as dancibility and energy percentage
+
+### 2.2 
