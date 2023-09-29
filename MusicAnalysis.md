@@ -51,6 +51,7 @@ When evaluatiing the status of data to be used for analysis, a simple test is to
 
 **C**ited: -Yes- Kaggle provides metadata about the top contributors to the dataset as well as other important information regarding the history of the data
 
+
 Overall, our data does ROCC and we can be confident that we can create meaningful insights from the information found in the dataset!
 
 # 3. Data Cleansing
