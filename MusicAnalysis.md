@@ -58,6 +58,19 @@ Overall, our data does ROCC and we can be confident that we can create meaningfu
 
 ### 3.1 Preparing our Data
 
+Note: Before manipulating our data, it is good convention to copy the raw data into another sheet, so we maintain a copy of the original data while we clean our data. Accordingly, all the following steps are done in a copy of the original dataset
 
+While getting our data ready for analysis, some **Key Steps** include:
+
+- Removing duplicates
+- Checking for data type errors (inconsistent/mismatched data types)
+- Making the data more accessible
+- Ensuring the data stays relevant to the business task
+- Dealing with NULL or empty values
+
+
+Using Excel's built-in remove duplicates functionality, we can see that there in fact no duplicate rows that we have to get rid of:
+
+<img src="https://github.com/dylanviyar/Excel-Projects/assets/81194849/7d49c198-01c1-45f0-aff6-8444c088c605" width="250">
 
 
