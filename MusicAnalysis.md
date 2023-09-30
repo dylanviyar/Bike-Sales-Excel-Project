@@ -77,3 +77,63 @@ We can now cleanse our data column by column to get a more meticulous understand
 
 `track_name`: 
 
+- Sorting the column by ascending values, we can see that there are rows with numeric track names. I searched my Spotify application to see if I could find these songs or if it was a data entry error, and all the songs checked out!
+
+- Some song titles contain foreign characters such as "½ï¿", possibly due to an incapibilty for Excel to process accents and other non-English characters. Using `=MAX(UNICODE(MID(A491,ROW(INDIRECT("1:"&LEN(A491))),1)))>127` we can determine which cells contain such characters, and a total of 71 songs have these characters, removing these songs is unlikely to change the trends we discover so we remove said rows.
+
+`artist(s)_name`:
+
+- Using the same function for the artist(s)_name as we did with track_name, we can see that there are 39 rows with cells that contain foreign characters. However, there are reoccuring artists that, if removed, can possibly have an effect on the trends that we find. We can use find and replace to replace the common artists. Particularly, we change "Beyoncï¿" to "Beyonce", "Mï¿½ï¿½ne" to "Maneskin" and "Tiï¿½ï¿" to "Tiesto". We delete the remaing 28 songs.
+
+`artist_count`:
+
+- All values are numerical and we have no NULL or blank values thus no further manipulation is necessary.
+
+`released_year`, `released_month`, `released_day`:
+
+- All these columns and their respective values are ready for analysis, however we can combine all these values into one column labeled `released_date` to make it easier to keep track.
+
+- To understand monthly trends, we can also create another column named `released_month_name` to allow for more intuitive visualizations.
+
+`in_spotify_playlists` and `in_spotify_charts`:
+
+- All data types and values are consistent to the task and they do not need further cleansing
+
+`streams`: 
+
+- There is a data entry error for the song "Love Grows (Where My Rosemary Goes)", after further research I manually inputted the correct amount of Spotify streams
+
+`in_apple_playlists`, `in_apple_charts`, `in_deezer_playlists`, `in_deezer_charts`, `in_shazam_charts`:
+
+- As we are focused on analyzing trends for only the music streaming service Spotify, we can delete these columns
+
+`bpm`:
+
+- All values are numerical and relevant (no NULL or blank values) thus no cleansing required
+
+- In order to make bpm easier to visualize and work with, we can create a new column titled: `bpm_range` to allow for more accessible analysis with this formula : `=IF(L5>=160,"160+",IF(L5>130,"Between 131 and 160", IF(L5>110,"Between 111 and 130", IF(L5>80,"Between 81 and 110",IF(L5<=80,"Less than or equal 80")))))`
+
+`key`:
+
+- There are 90 rows with a blank value as a key. We can use Find and Replace to replace the blank cells with the value `Unknown Key`
+
+`mode`: 
+
+- For the songs that have the value `Unknown Key`, we can replace the mode to `Unknown Mode`
+
+`danceability %`, `valence %`, `energy %`, `acousticness %`, `instrumentalness %`, `liveness %`, and `speechiness %`:
+
+- All values are the correct data type and are as expected, no further manipulation necessary
+
+
+After data cleansing, our dataset (sorted descending by number of Spotify streams) looks like this:
+
+![CleanMusicAnalysisDataset](https://github.com/dylanviyar/Excel-Projects/assets/81194849/01db5cf8-bcc1-4162-b897-5c9efc49cfab)
+
+We are ready for analysis.
+
+# 4. Analysis
+
+### 4.1 Pivot Tables
+
+
