@@ -136,4 +136,25 @@ We are ready for analysis.
 
 ### 4.1 Pivot Tables
 
+Using pivot tables we can look for trends and relationships within our dataset:
+
+Top Performing Artists of 2023:
+
+<img src="https://github.com/dylanviyar/Excel-Projects/assets/81194849/9499a485-b148-4c3d-a4dd-65344fd31efb" width = "200">
+
+Relationship between BPM and Song Characteristics:
+
+<img src="https://github.com/dylanviyar/Excel-Projects/assets/81194849/6211b31b-e5d8-4529-87aa-685bb17015fb" width = "350">
+
+Frequency of Song Releases:
+
+<img src="https://github.com/dylanviyar/Excel-Projects/assets/81194849/7a2b3e46-d8a5-41f5-be95-c0ebbad0456c" width="200">
+
+Relationship between BPM and Amount of Streams:
+
+<img src="https://github.com/dylanviyar/Excel-Projects/assets/81194849/55fd17e9-116e-4e79-b5dd-3d98f991fcbf" width ="200">
+
+### 4.2 Key Takeaways
+
+1. 
 
