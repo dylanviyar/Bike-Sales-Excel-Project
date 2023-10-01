@@ -12,7 +12,7 @@ In order to discover if certain genres and songs are generally more favorable, o
 
 ### 1.1 Guiding Questions 
 
-1. What are some reoccuring characteristics of songs, such as the BPM, genre and key that are in the top 100?
+1. What are some reoccuring characteristics of songs, such as the BPM, genre and key that are in the most popular songs?
 2. How can understanding of these trends help aspiring musicians create music more likely to be well recepted by the public?
 
 ### Business Task
@@ -156,5 +156,45 @@ Relationship between BPM and Amount of Streams:
 
 ### 4.2 Key Takeaways
 
-1. 
+1. The Weeknd has the most amount of Spotify streams
+2. A BPM (beats per minute) between 80 and 110 has the highest values of `valence_%`, `instrumentalness_%`, `dancibility_%` and `energy_%`
+3. January is the most popular time to release a song, whereas Feburary is the least popular
+4. Songs in the BPM range of 80 to 110 are the most popular, receiving the most amount of streams
 
+# 5. Data Visualization
+
+### 5.1 Dashboard
+
+![MusicAnalysisDashboardUpdated](https://github.com/dylanviyar/Excel-Projects/assets/81194849/96b9aa2f-c0e2-4443-9c59-90ba2e0debdf)
+
+*Note: We provide two additional slicers: `mode` and `key` for two more filters that allow for on-demand analysis*
+
+### 5.2 Visualization Insights
+
+1. The most popular songs are in the 80 to 100 BPM range, and songs in this range tend to have high valence, energy and dancibility percentages while not having a particular emphasis on the intrumentalness percentage
+2. Songs released in January, May and November have the highest number of streams
+3. Taylor Swift is the artist with the most streams for songs in the Major mode while Ed Sheeran has the most streams for songs exclusively in the Minor mode
+4. Certain keys of songs have faster and slower most popular BPM, with the key of A being the most popular key for songs in the 160+ BPM and interestingly, also the key most popular for songs in the 80 or below range
+5. The key with the most streams is C#
+
+# 6. Conclusion
+
+### 6.0 Recall our Guiding Questions
+
+1. What are some reoccuring characteristics of songs, such as the BPM, genre and key that are in the top 100?
+2. How can understanding of these trends help aspiring musicians create music more likely to be well recepted by the public?
+
+
+### Reoccuring Trends in the Most Successful Songs
+
+- Most popular songs are in the key of C#
+- 80 to 110 BPM seems to be the home of happy, dancing music, a very popular type of music
+- Certain attributes are higher valued than others to the public when deciding if they want to stream the song
+- The Weeknd is constantly high performing, having the top spot in streams overall
+
+### Data-Driven Suggestions for Musicians
+
+1. Know when to drop your music! January, May and November are when the public seems to be the most receptive to streaming new music, possibly because of the new year, start of summer and Christmas, respectfully, so make sure to release new content during these months
+2. Focus on the vibe not technicalities. Listeners are less motivated to listen to songs with high instrumental presence, rather they enjoy streaming uplifting, energetic and happy music
+3. BPM BPM BPM! Clearly the top perfoming BPM range is between 80 and 110 so keeping music in this range can ensure that people are familiar with the cadence and are more likely to enjoy it
+4. Key of C#. This key is a very popular attribute of high-streaming songs, possibly because of how bright and positive this key sounds. Making music in this key can also possibly supplement streams and listener interest.
