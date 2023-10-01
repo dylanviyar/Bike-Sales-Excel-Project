@@ -194,7 +194,7 @@ Relationship between BPM and Amount of Streams:
 
 ### Data-Driven Suggestions for Musicians
 
-1. Know when to drop your music! January, May and November are when the public seems to be the most receptive to streaming new music, possibly because of the new year, start of summer and Christmas, respectfully, so make sure to release new content during these months
-2. Focus on the vibe not technicalities. Listeners are less motivated to listen to songs with high instrumental presence, rather they enjoy streaming uplifting, energetic and happy music
-3. BPM BPM BPM! Clearly the top perfoming BPM range is between 80 and 110 so keeping music in this range can ensure that people are familiar with the cadence and are more likely to enjoy it
-4. Key of C#. This key is a very popular attribute of high-streaming songs, possibly because of how bright and positive this key sounds. Making music in this key can also possibly supplement streams and listener interest.
+1. Know when to drop your music! January, May and November are when the public seems to be the most receptive to streaming new music, possibly because of the new year, start of summer and Christmas respectfully, so make sure to release new content during these months
+2. Focus on the vibe not technicalities. Listeners are less motivated to listen to songs with high instrumental presence, rather they enjoy streaming uplifting, energetic and happy music, so focus less on the instruments and more on the sound and presentation of the song
+3. BPM BPM BPM! Clearly, the top perfoming BPM range is between 80 and 110 so keeping music in this range can ensure that people are familiar with the cadence and are more likely to enjoy the music
+4. The key is the key of C#. This key is a very popular attribute of high-streaming songs, possibly because of how bright and positive this key sounds. Making music in this key can possibly supplement streams and listener interest
