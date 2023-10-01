@@ -17,7 +17,7 @@ In order to discover if certain genres and songs are generally more favorable, o
 
 ### Business Task
 
-*Analyze data containing information on the top performing songs of 2023 to understand listning preferences and provide artists with data-driven suggestions for music curation targeted for the general public*
+*Analyze data containing information on the top performing songs of 2023 to understand listening preferences and provide artists with data-driven suggestions for music curation targeted for the general public*
 
 
 # 2. The Data
